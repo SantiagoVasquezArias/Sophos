@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Vans" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-02T12:49:26" hostname="LAPTOP-L2D6D9IH" time="43.403">
+  <properties/>
+  <testcase name="Buscar un producto en la pagina vans" classname="Vans" time="43.403"/>
+  <system-out><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+
+]]></system-out>
+  <system-err><![CDATA[abr 02, 2019 7:49:27 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 48429
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+abr 02, 2019 7:49:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+</testsuite>

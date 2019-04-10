@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0ea6490b6620d4cff54f1b39f96887ae36cbce6a6fec54e39a71d46d08bf69df.html">Seleccion Del Producto</a></span>
+                > <span class="truncate-60"><a
+                    href="04661a708eb2ad1432ff9da99ec87f4452d0d434cebecdf2d53cb0b9774b574c.html">Seleccionar producto </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-04-2019 09:38</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Seleccion Del Producto </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0e2c4339341781bc8ae63ac771ff547d6c059338e023b61c195cad9cad647950.html">Seleccionarproducto
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Seleccionar producto
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given el usuario realizo la busqueda del producto<br>When el usuario seleciona el producto<br>When el usuario complenta los detalles del producto<br>When el usuario agrega producto al carrito de compras<br>Then el usuario verifica que el podructo seleccionado "&lt;resultadoEsperado&gt;" este en los resultados</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="89a5bbad7da8e6fa36bcdfdcce2ac2c08eb126d977d953fb13129f4b078dc400.png" title=" Example #1: {size=5.0 Boys = 6.5 Women, quantity=2, resultadoEsperado=$120.00}" width="1366"/>
+                <img src="89a5bbad7da8e6fa36bcdfdcce2ac2c08eb126d977d953fb13129f4b078dc400.png" title=" Given el usuario realizo la busqueda del producto" width="1366"/>
+                <img src="89a5bbad7da8e6fa36bcdfdcce2ac2c08eb126d977d953fb13129f4b078dc400.png" title=" Batman opens the Vans seleccion producto" width="1366"/>
+                <img src="9ae0c457619de7691769ce697ca7a9b4ee8986befe4d279cf725c9322a6afed6.png" title=" Given el usuario realizo la busqueda del producto (completed)" width="1366"/>
+                <img src="9ae0c457619de7691769ce697ca7a9b4ee8986befe4d279cf725c9322a6afed6.png" title=" When el usuario seleciona el producto" width="1366"/>
+                <img src="9ae0c457619de7691769ce697ca7a9b4ee8986befe4d279cf725c9322a6afed6.png" title=" Batman seleccionar producto" width="1366"/>
+                <img src="9ae0c457619de7691769ce697ca7a9b4ee8986befe4d279cf725c9322a6afed6.png" title=" Batman clicks on Seleccion producto" width="1366"/>
+                <img src="542dce25724e1ab680f5636520f4e7e1db5f970b9dbf057617fc471a465909d2.png" title=" Batman clicks on Seleccion producto (completed)" width="1366"/>
+                <img src="542dce25724e1ab680f5636520f4e7e1db5f970b9dbf057617fc471a465909d2.png" title=" Batman seleccionar producto (completed)" width="1366"/>
+                <img src="542dce25724e1ab680f5636520f4e7e1db5f970b9dbf057617fc471a465909d2.png" title=" When el usuario seleciona el producto (completed)" width="1366"/>
+                <img src="542dce25724e1ab680f5636520f4e7e1db5f970b9dbf057617fc471a465909d2.png" title=" When el usuario complenta los detalles del producto
+| size | quantity |
+| 5.0 Boys = 6.5 Women | 2 |" width="1366"/>
+                <img src="30d4c5c741812c51e8c499f8943a2bd46eccc1705913f7085bd5087e6212e938.png" title=" Batman detalle producto" width="1366"/>
+                <img src="30d4c5c741812c51e8c499f8943a2bd46eccc1705913f7085bd5087e6212e938.png" title=" Batman selects 5.0 Boys = 6.5 Women in Seleccion talla" width="1366"/>
+                <img src="cac30aac916674cf2aa7af37044ae0848cee5809a7f96060d44fa7ff5504041c.png" title=" Batman selects 5.0 Boys = 6.5 Women in Seleccion talla (completed)" width="1366"/>
+                <img src="cac30aac916674cf2aa7af37044ae0848cee5809a7f96060d44fa7ff5504041c.png" title=" Batman selects 2 in Seleccion cantidad" width="1366"/>
+                <img src="22bbab20cd9d3ae476cb63a3441cdc36a7dd2d768e7758badf5a33a7f69fd46d.png" title=" Batman selects 2 in Seleccion cantidad (completed)" width="1366"/>
+                <img src="22bbab20cd9d3ae476cb63a3441cdc36a7dd2d768e7758badf5a33a7f69fd46d.png" title=" Batman detalle producto (completed)" width="1366"/>
+                <img src="22bbab20cd9d3ae476cb63a3441cdc36a7dd2d768e7758badf5a33a7f69fd46d.png" title=" When el usuario complenta los detalles del producto
+| size | quantity |
+| 5.0 Boys = 6.5 Women | 2 | (completed)" width="1366"/>
+                <img src="22bbab20cd9d3ae476cb63a3441cdc36a7dd2d768e7758badf5a33a7f69fd46d.png" title=" When el usuario agrega producto al carrito de compras" width="1366"/>
+                <img src="22bbab20cd9d3ae476cb63a3441cdc36a7dd2d768e7758badf5a33a7f69fd46d.png" title=" Batman agrega producto" width="1366"/>
+                <img src="6ecbab84619ef9e25734668dc442472b35259dbd941fc8b9188370c0bb893cbd.png" title=" Batman clicks on Agregar producto" width="1366"/>
+                <img src="00bb64b40c8ada7cf6c849fb43327bec66a516b1418911d7d163e5ece6505624.png" title=" Batman clicks on Agregar producto (completed)" width="1366"/>
+                <img src="00bb64b40c8ada7cf6c849fb43327bec66a516b1418911d7d163e5ece6505624.png" title=" Batman clicks on Compra" width="1366"/>
+                <img src="a42f4393ded2bd0dcf40f4c6dfbd50f1c357b456bd9e5697421683e6d7d47e93.png" title=" Batman clicks on Compra (completed)" width="1366"/>
+                <img src="a42f4393ded2bd0dcf40f4c6dfbd50f1c357b456bd9e5697421683e6d7d47e93.png" title=" Batman agrega producto (completed)" width="1366"/>
+                <img src="a42f4393ded2bd0dcf40f4c6dfbd50f1c357b456bd9e5697421683e6d7d47e93.png" title=" When el usuario agrega producto al carrito de compras (completed)" width="1366"/>
+                <img src="a42f4393ded2bd0dcf40f4c6dfbd50f1c357b456bd9e5697421683e6d7d47e93.png" title=" Then el usuario verifica que el podructo seleccionado &quot;$120.00&quot; este en los resultados" width="1366"/>
+                <img src="f2075dcb45a7dd8250b38f9bac09cd811dffe4ce3100212b78b5ca0ec13e1f48.png" title=" Then validar detalle Producto should be '$120.00'" width="1366"/>
+                <img src="f2075dcb45a7dd8250b38f9bac09cd811dffe4ce3100212b78b5ca0ec13e1f48.png" title=" Then el usuario verifica que el podructo seleccionado &quot;$120.00&quot; este en los resultados" width="1366"/>
+                <img src="f2075dcb45a7dd8250b38f9bac09cd811dffe4ce3100212b78b5ca0ec13e1f48.png" title=" Then validar detalle Producto should be '$120.00' (completed)" width="1366"/>
+                <img src="f2075dcb45a7dd8250b38f9bac09cd811dffe4ce3100212b78b5ca0ec13e1f48.png" title=" Example #1: {size=5.0 Boys = 6.5 Women, quantity=2, resultadoEsperado=$120.00} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.41</span>
+</div>
+</body>
+</html>

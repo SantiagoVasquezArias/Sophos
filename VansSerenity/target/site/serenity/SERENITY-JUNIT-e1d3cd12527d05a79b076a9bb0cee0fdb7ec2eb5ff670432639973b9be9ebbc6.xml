@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Vans" skipped="0" tests="1" time="27.42" timestamp="2019-04-05 02:49:50"><testcase name="Buscar un producto en la pagina vans"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-L2D6D9IH', ip: '192.168.1.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-L2D6D9IH', ip: '192.168.1.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-L2D6D9IH', ip: '192.168.1.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: unknown&#13;
+com.vans.qa.pages.SeleccionarProducto.lookup_terms(SeleccionarProducto.java:16)&#13;
+com.vans.qa.steps.PasoFinalUsuario.startsSearch(PasoFinalUsuario.java:26)&#13;
+com.vans.qa.steps.PasoFinalUsuario.looksFor(PasoFinalUsuario.java:33)&#13;
+com.vans.qa.stepsdefinitions.VansStepDefinition.el_usuario_busca(VansStepDefinition.java:29)&#13;
+✽.El usuario busca "&lt;oldSkool&gt;"(src/test/resources/features/Vans.feature:8)&#13;
+</system-err></testcase></testsuite>

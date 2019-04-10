@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.google.qa.miprimerscreemplay.runners.BusquedaEnGoogleRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="LAPTOP-L2D6D9IH" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/BusquedaEnGoogle.feature:17 ?[0m# buscar en google
+
+3 Scenarios (?[31m1 failed?[0m, ?[32m2 passed?[0m)
+9 Steps (?[31m1 failed?[0m, ?[32m8 passed?[0m)
+0m59,814s
+
+java.lang.AssertionError: 
+Expected: is "kjadshkjashdkjhaskjd"
+     but: was "hola tres"
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:291)
+	at co.com.google.qa.miprimerscreemplay.stepsdefinitions.BusquedaEnGoogoleStepDefinition.el_usuario_verifica_que_la_palabra_este_en_los_resultados(BusquedaEnGoogoleStepDefinition.java:53)
+	at ?.el usuario verifica que la palabra "kjadshkjashdkjhaskjd" este en los resultados(src/test/resources/features/BusquedaEnGoogle.feature:11)
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

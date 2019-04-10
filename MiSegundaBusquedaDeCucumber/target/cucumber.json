@@ -1,0 +1,220 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Buscar en google",
+        "description": "",
+        "id": "buscar-en-google-con-datos-desde-el-feature;buscar-en-google;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6676884040,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "arthur esta en el sitio google",
+            "match": {
+              "location": "BuscarDatosGoogleSteps.arthur_esta_en_el_sitio_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1621157605,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "el busca la palabra \"switch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"switch\"",
+                  "offset": 20
+                }
+              ],
+              "location": "BuscarDatosGoogleSteps.el_busca_la_palabra(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2355197412,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el verifica que la \"switch\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"switch\"",
+                  "offset": 19
+                }
+              ],
+              "location": "BuscarDatosGoogleSteps.el_verifica_que_la_este_en_los_resultados(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Buscar en google",
+        "description": "",
+        "id": "buscar-en-google-con-datos-desde-el-feature;buscar-en-google;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5688948878,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "arthur esta en el sitio google",
+            "match": {
+              "location": "BuscarDatosGoogleSteps.arthur_esta_en_el_sitio_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1661276594,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "el busca la palabra \"shopos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shopos\"",
+                  "offset": 20
+                }
+              ],
+              "location": "BuscarDatosGoogleSteps.el_busca_la_palabra(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2128069810,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el verifica que la \"shopos\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shopos\"",
+                  "offset": 19
+                }
+              ],
+              "location": "BuscarDatosGoogleSteps.el_verifica_que_la_este_en_los_resultados(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Buscar en google",
+        "description": "",
+        "id": "buscar-en-google-con-datos-desde-el-feature;buscar-en-google;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5961328689,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "arthur esta en el sitio google",
+            "match": {
+              "location": "BuscarDatosGoogleSteps.arthur_esta_en_el_sitio_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1267609257,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "el busca la palabra \"liungjknsihfwe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"liungjknsihfwe\"",
+                  "offset": 20
+                }
+              ],
+              "location": "BuscarDatosGoogleSteps.el_busca_la_palabra(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2169412903,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el verifica que la \"liungjknsihfwe\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"liungjknsihfwe\"",
+                  "offset": 19
+                }
+              ],
+              "location": "BuscarDatosGoogleSteps.el_verifica_que_la_este_en_los_resultados(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Buscar en google con datos desde el feature",
+    "description": "  Arthur quiere hacer una busqueda en google con datos",
+    "id": "buscar-en-google-con-datos-desde-el-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feauteres/BuscarGoogle2.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

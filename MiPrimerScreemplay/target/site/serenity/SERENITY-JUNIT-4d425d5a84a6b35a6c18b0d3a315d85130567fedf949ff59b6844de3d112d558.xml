@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="El usuario quiere hacer una busqueda con datos" skipped="0" tests="3" time="33.01" timestamp="2019-04-03 10:31:10"><testcase name="buscar en google"><failure message="&#10;Expected: is &quot;kjadshkjashdkjhaskjd&quot;&#10;     but: was &quot;hola tres&quot;" type="java.lang.AssertionError">
+Expected: is "kjadshkjashdkjhaskjd"
+     but: was "hola tres"</failure><system-err>
+Expected: is "kjadshkjashdkjhaskjd"
+     but: was "hola tres"&#13;
+co.com.google.qa.miprimerscreemplay.stepsdefinitions.BusquedaEnGoogoleStepDefinition.el_usuario_verifica_que_la_palabra_este_en_los_resultados(BusquedaEnGoogoleStepDefinition.java:53)&#13;
+✽.el usuario verifica que la palabra "kjadshkjashdkjhaskjd" este en los resultados(src/test/resources/features/BusquedaEnGoogle.feature:11)&#13;
+</system-err></testcase></testsuite>

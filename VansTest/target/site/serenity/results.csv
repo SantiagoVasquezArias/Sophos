@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Buscar Producto","el usuario busca producto","SUCCESS","2019-04-09T13:20:08.961-05:00[America/Bogota]","0.0","23.03"
+"seleccion del producto","Seleccionar producto","SUCCESS","2019-04-09T13:20:31.992-05:00[America/Bogota]","0.0","34.15"
